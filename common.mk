@@ -486,9 +486,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Thermal
+# Thermal HAL
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@2.0-service.pixel \
+    thermal_symlinks
 
 # Touch
 PRODUCT_PACKAGES += \

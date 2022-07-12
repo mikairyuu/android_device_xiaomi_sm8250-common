@@ -186,9 +186,6 @@ BOARD_EROFS_PCLUSTER_SIZE := 65536
 BOARD_VENDOR := xiaomi
 BOARD_USES_QCOM_HARDWARE := true
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop

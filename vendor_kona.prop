@@ -4,3 +4,6 @@ vendor.qcom.bluetooth.soc=hastings
 
 # Chipset
 ro.soc.model=SM8250
+
+# Radio
+persist.vendor.radio.mbn_cdma=/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/oem_sw_j11.txt
